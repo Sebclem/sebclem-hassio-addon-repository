@@ -13,9 +13,10 @@ Hass.io snapshot backup to Nextcloud
 Easily backup your Hass.io snapshots to Nextcloud.
 Auto backup can be configure with the web interface.
 
-![screenshot][image]
+
 [Click here for the full documentation][docs]
 
+![screenshot][image]
 
 [buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
 [buymeacoffee]: https://www.buymeacoffee.com/seb6596
