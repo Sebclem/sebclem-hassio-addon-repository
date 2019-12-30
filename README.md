@@ -112,7 +112,7 @@ SOFTWARE.
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
 [sebclem]: https://github.com/Sebclem
-[issue]: https://github.com/hassio-addons/repository/issues
+[issue]: https://github.com/Sebclem/sebclem-hassio-addon-repository/issues
 [license-shield]: https://img.shields.io/github/license/Sebclem/sebclem-hassio-addon-repository.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-orange.svg
