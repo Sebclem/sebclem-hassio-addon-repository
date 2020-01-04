@@ -23,7 +23,7 @@ Auto backup can be configure with the web interface.
 [docs]: https://github.com/Sebclem/hassio-nextcloud-backup/blob/master/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2019.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-beta-red.svg
 [release-shield]: https://img.shields.io/badge/version-v0.5.0-blue.svg
 [release]:  https://img.shields.io/badge/version-v0.5.0-blue.svg
