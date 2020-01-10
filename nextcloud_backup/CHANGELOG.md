@@ -1,12 +1,11 @@
-:tada: The auto backup feature is available ! :tada:
+&#127881; Road to the final release &#127881;
 
-You can now configure auto backup via the web UI.
+## &#10133; New features : 
+- Auto clean
 
-On this release, the fallowing functionalities are available :
-- :heavy_check_mark: Configuring Nextcloud (hostname, username, password)
-- :heavy_check_mark: Get HassIo add-on.
-- :heavy_check_mark: Backup already existing snapshot.
-- :heavy_check_mark: Create a new snapshot and upload it to Nextcloud.
-- :heavy_plus_sign: Configure auto backup
+## &#128296; Enhancement:
+- Display backed up snapshot
+- Progress tracking for upload
+- Disable Action button if a task is running
 
-[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.5.0...0.6.0)
+[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.6.0...0.7.0)
