@@ -7,5 +7,6 @@
 - Display backed up snapshot
 - Progress tracking for upload
 - Disable Action button if a task is running
+- Change config location
 
-[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.6.0...0.7.0)
+[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.6.0...0.7.1)
