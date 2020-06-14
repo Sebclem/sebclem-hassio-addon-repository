@@ -1,8 +1,4 @@
-## ✏️ Small change:
-- Typo
-- Update some libs
-- Update base to 7.1.1
-- Add debug logs to try to understand #8
+## 🚑 Fix:
+- Fix ssl setting not working #16
 
-
-[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.7.4...0.7.5)
+[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.7.5...0.7.6)
