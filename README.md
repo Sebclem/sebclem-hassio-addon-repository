@@ -130,5 +130,5 @@ SOFTWARE.
 [nextcloud-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [nextcloud-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [nextcloud-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[nextcloud-pulls-shield]: https://img.shields.io/docker/pulls/sebclemhassaddon/armhf-hassio-nextcloud-backup.svg
+[nextcloud-pulls-shield]: https://img.shields.io/docker/pulls/sebclemhassaddon/amd64-hassio-nextcloud-backup.svg
 [nextcloud-issue]: https://github.com/Sebclem/hassio-nextcloud-backup/issues
