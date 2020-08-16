@@ -1,4 +1,4 @@
-This is another attempt to fix the issue #8 .
-@kicker334 point the fact that some system don't like `:` in path. So we replace all `:` by `-` in all names.
+# 🚑 Fix:
+- Switch to Got library to upload snapshot to nextcloud, this can fix #8 (#22) Thank to @hannemann
 
-[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.7.8...0.7.9)
+[Full Change Log](https://github.com/Sebclem/hassio-nextcloud-backup/compare/0.7.9...0.7.10)
