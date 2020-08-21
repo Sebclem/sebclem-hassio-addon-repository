@@ -124,7 +124,7 @@ SOFTWARE.
 
 
 [addon-nextcloud]: https://github.com/Sebclem/hassio-nextcloud-backup
-[nextcloud-version-shield]: https://img.shields.io/badge/version-v0.7.10-blue.svg
+[nextcloud-version-shield]: https://img.shields.io/badge/version-v0.8.0-blue.svg
 [nextcloud-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [nextcloud-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [nextcloud-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
