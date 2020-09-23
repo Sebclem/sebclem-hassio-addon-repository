@@ -1,12 +1,17 @@
-## 🔨 Changes
-
-- Add setting to specify backup directory [`25618cc`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/25618ccd91692cf8d32c0a98dd6592042a79964a)
-
 ## 🚑 Fixs
 
-- :ambulance: Fix autoclean setting inverted #25 [`3c22a39`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/3c22a39945971ea275583424f44e39d8bb2eacf4)
+- Increase snapshot creation time-out #26 [`c8256e2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/c8256e2d083a5ddc2c437f2d9e88327cf0b5a6b2)
 
 ## ✏ Enhancements
 
-- Remove log file [`e10d3b5`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/e10d3b5278d39a0eb89b68fbe1fa7afb2897989d)
-- Split modals in different files  [`4cdb25c`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/4cdb25c091aa4f9d1d46f3048347cca99d2fb055)
+- Nextcloud Backups -> Snapshots in Nextcloud [`b4be373`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/b4be373a0c579f4ac81e576da54cb31ef1938b6e)
+- Manu -> Manual [`6c7dcf6`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/6c7dcf691c4449383aeaf56caffaf05d5c935a3e)
+- Set default version to DEV [`9fa347d`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/9fa347df6400aa8009243ebe05751a6f3ddd9fb0)
+
+## 🔨 Changes
+
+- Github action -> Use stategy and update build-push-action [`f9d183f`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f9d183f246de947602c31771108e64cab6a18ec4)
+- Fix typo in github CI/CD [`5fcb6b1`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/5fcb6b16c85a283fcd73e2d6a72fcccec7f7063f)
+
+
+

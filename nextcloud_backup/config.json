@@ -1,6 +1,6 @@
 {
     "name": "Nextcloud Backup",
-    "version": "0.9.0",
+    "version": "0.9.1",
     "slug": "nextcloud_backup",
     "description": "Hass.io snapshot backup to Nextcloud",
     "url": "https://github.com/Sebclem/hassio-nextcloud-backup",
