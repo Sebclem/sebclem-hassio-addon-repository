@@ -1,0 +1,4 @@
+addons:
+  nextcloud-backup:
+    repository: Sebclem/hassio-nextcloud-backup
+    target: nextcloud_backup
