@@ -1,4 +1,4 @@
-# Hass.io Add-ons: Nextcloud Backup
+# Home Assistant Add-ons: Nextcloud Backup
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
@@ -6,11 +6,9 @@
 
 [![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
 
-Hass.io snapshot backup to Nextcloud
-
 ## About
 
-Easily backup your Hass.io snapshots to Nextcloud.
+Easily backup your Home Assistant snapshots to Nextcloud.
 Auto backup can be configure via the Home Assistant web interface.
 ### Features
 - Auto Backup : Configure this add-on to automaticaly backup your HassIO instance.
@@ -45,6 +43,6 @@ To do this:
 [forum]: https://community.home-assistant.io/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-beta-red.svg
-[release-shield]: https://img.shields.io/badge/version-v0.9.1-blue.svg
-[release]:  https://img.shields.io/badge/version-v0.9.1-blue.svg
+[release-shield]: https://img.shields.io/badge/version-0.9.2-blue.svg
+[release]:  https://img.shields.io/badge/version-0.9.2-blue.svg
 [image]: https://github.com/Sebclem/hassio-nextcloud-backup/raw/master/images/screenshot.png
