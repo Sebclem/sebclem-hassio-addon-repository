@@ -1,4 +1,4 @@
-# SebClem Hass.io Add-on repository for Home Assistant
+# SebClem Add-on repository for Home Assistant
 
 ![Project Stage][project-stage-shield]
 ![Maintenance][maintenance-shield]
@@ -8,9 +8,9 @@
 
 ## About
 
-Hass.io allows anyone to create add-on repositories to share their add-ons for
-Hass.io easily. This repository is one of those repositories, providing extra
-Home Assistant add-ons for your Hass.io installation.
+Homme Assistant OS allows anyone to create add-on repositories to share their add-ons for
+Homme Assistant easily. This repository is one of those repositories, providing extra
+Home Assistant add-ons for your Homme Assistant OS installation.
 
 The primary goal of this project is to provide you (as a Hass.io /
 Home Assistant user) with additional, high quality, add-ons that allow you to
@@ -18,7 +18,7 @@ take your automated home to the next level.
 
 ## Installation
 
-Adding this add-ons repository to your Hass.io Home Assistant instance is
+Adding this add-ons repository to your Home Assistant OS instance is
 pretty easy. Follow [the official instructions][third-party-addons] on the
 website of Home Assistant, and use the following URL:
 
@@ -28,17 +28,20 @@ https://github.com/Sebclem/sebclem-hassio-addon-repository
 
 ## Add-ons provided by this repository
 
-### &#10003; [Nextcloud Backup][addon-nextcloud]
+### &#10003; [Nextcloud Backup][addon-nextcloud_backup]
 
-![Latest Version][nextcloud-version-shield]
-![Supports armhf Architecture][nextcloud-armhf-shield]
-![Supports armv7 Architecture][nextcloud-armv7-shield]
-![Supports aarch64 Architecture][nextcloud-aarch64-shield]
-![Supports amd64 Architecture][nextcloud-amd64-shield]
-![Supports i386 Architecture][nextcloud-i386-shield]
-![Docker Pulls][nextcloud-pulls-shield]
+![Latest Version][nextcloud_backup-version-shield]
+![Supports armhf Architecture][nextcloud_backup-armhf-shield]
+![Supports armv7 Architecture][nextcloud_backup-armv7-shield]
+![Supports aarch64 Architecture][nextcloud_backup-aarch64-shield]
+![Supports amd64 Architecture][nextcloud_backup-amd64-shield]
+![Supports i386 Architecture][nextcloud_backup-i386-shield]
+![Docker Pulls][nextcloud_backup-pulls-shield]
 
-Easily backup your Hass.io snapshots to Nextcloud. 
+Hass.io snapshot backup to Nextcloud 
+ 
+
+
 
 
 
@@ -57,7 +60,10 @@ You could also open an issue here on GitHub. Note, we use a separate
 GitHub repository for each add-on. Please ensure you are creating the issue
 on the correct GitHub repository matching the add-on.
 
-- [Open an issue for the add-on: Nextcloud Backup][nextcloud-issue]
+
+- [Open an issue for the add-on: Nextcloud Backup][nextcloud_backup-issue]
+ 
+
 
 
 For a general repository issue or add-on ideas [open an issue here][issue]
@@ -72,7 +78,7 @@ Thank you for being involved! :heart_eyes:
 
 ## Adding a new add-on
 
-Have you created an add-on that you want to list in the Community Repository?
+Have you created an add-on that you want to list in this repository?
 Contact [Sebastien Clement][sebclem]:
 
 - Drop him an email: seb6596@gmail.com
@@ -123,12 +129,18 @@ SOFTWARE.
 [third-party-addons]: https://home-assistant.io/hassio/installing_third_party_addons/
 
 
-[addon-nextcloud]: https://github.com/Sebclem/hassio-nextcloud-backup
-[nextcloud-version-shield]: https://img.shields.io/badge/version-v0.9.1-blue.svg
-[nextcloud-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
-[nextcloud-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[nextcloud-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
-[nextcloud-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[nextcloud-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
-[nextcloud-pulls-shield]: https://img.shields.io/docker/pulls/sebclemhassaddon/amd64-hassio-nextcloud-backup.svg
-[nextcloud-issue]: https://github.com/Sebclem/hassio-nextcloud-backup/issues
+
+[addon-nextcloud_backup]: https://github.com/Sebclem/hassio-nextcloud-backup
+[nextcloud_backup-version-shield]: https://img.shields.io/badge/version-0.9.1-blue.svg
+[nextcloud_backup-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[nextcloud_backup-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[nextcloud_backup-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+[nextcloud_backup-amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[nextcloud_backup-i386-shield]: https://img.shields.io/badge/i386-yes-green.svg
+[nextcloud_backup-pulls-shield]: https://img.shields.io/docker/pulls/sebclemhassaddon/i386-hassio-nextcloud-backup.svg
+[nextcloud_backup-issue]: https://github.com//issues
+ 
+
+
+
+
