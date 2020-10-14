@@ -1,7 +1,9 @@
-## 🔨 Changes
+## 🚑 Fixs
 
-- :hammer: Add option to accept self signed certificates [`7af0263`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7af0263b6c75c6f5ccbf94b0637257dc8d5adc7e) #27 
+- :ambulance: Fix self signed certificate #27 [`a0a31e3`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/a0a31e3bf7a5d383029d27f5828b511ab83a9726)
 
 ## ✏ Enhancements
 
-- :pencil2: Rebranding hassio =&gt; home assistant [`4129f0c`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/4129f0cbf56152dcd9bdfc1a2e4d58a64918ab05) [`5e64214`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/5e64214459eca5df264cbfd9134ce3f3cc81cafa)
+- :pencil2: Add issue templates [`60b31e7`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/60b31e7f5fa1f2a5c47371b08466857ed438d659)
+- :pencil2: Add stale config [`75cc45a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/75cc45a65e8aa6c756ed7c1f42e4ea16a928e206)
+
