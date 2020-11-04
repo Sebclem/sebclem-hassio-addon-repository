@@ -1,9 +1,8 @@
-## 🚑 Fixs
+## 🔨 Changes
 
-- :ambulance: Fix self signed certificate #27 [`a0a31e3`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/a0a31e3bf7a5d383029d27f5828b511ab83a9726)
+- :hammer: Add ability to upload backed-up snapshot from Nextcloud to Home assistant  [`1a1ebc2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/1a1ebc252bcc4698ef639dfc9002148a60b0f66a)
+- :hammer: Edit frontend for Restore function [`88cd6f2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/88cd6f2c4598f45635acc6b86f29207593e43d28)
 
 ## ✏ Enhancements
 
-- :pencil2: Add issue templates [`60b31e7`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/60b31e7f5fa1f2a5c47371b08466857ed438d659)
-- :pencil2: Add stale config [`75cc45a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/75cc45a65e8aa6c756ed7c1f42e4ea16a928e206)
-
+- :pencil2: Add size for backup-ed snapshot in detail modal [`2c506c2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/2c506c2e69a675b04025fcf71ff47842c6ccb960)
