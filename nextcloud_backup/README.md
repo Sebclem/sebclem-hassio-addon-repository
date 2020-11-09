@@ -43,6 +43,6 @@ To do this:
 [forum]: https://community.home-assistant.io/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-beta-red.svg
-[release-shield]: https://img.shields.io/badge/version-0.10.1-blue.svg
-[release]:  https://img.shields.io/badge/version-0.10.1-blue.svg
+[release-shield]: https://img.shields.io/badge/version-0.10.2-blue.svg
+[release]:  https://img.shields.io/badge/version-0.10.2-blue.svg
 [image]: https://github.com/Sebclem/hassio-nextcloud-backup/raw/master/images/screenshot.png
