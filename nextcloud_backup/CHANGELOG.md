@@ -1,3 +1,8 @@
-## ✏ Enhancements
 
-- Add more debug when uploading/downloading to/from Nextcloud [`3941262`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/3941262e8c55ae5899769456353100725f3928b2)
+## 🚑 Fixs
+
+- encoreUrl of password to prevent URI malformed error, Possible fix for #32 [`a0ff15d`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/a0ff15d716c7d23859d29133622ec389dd3fd2c6)
+
+## 🔨 Changes
+
+-  Log error message when catching [`7d174aa`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7d174aa6100ad796a1e67dca20ecf0965ea5d418)
