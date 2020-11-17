@@ -1,8 +1,7 @@
 ## 🚑 Fixs
 
-- encoreUrl of password to prevent URI malformed error, Possible fix for #32 [`a0ff15d`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/a0ff15d716c7d23859d29133622ec389dd3fd2c6)
-- :ambulance: Fix crash on startup [`c4f5b00`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/c4f5b00a8494d100ec3a1ca7493a5b5a00ac4e3e)
+- Manually buid basic auth header to prevent encoding issue with password #32 [`619aa80`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/619aa8068714a92c315402a953473faf3fe6698e)
 
-## 🔨 Changes
+## ✏ Enhancements
 
--  Log error message when catching [`7d174aa`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7d174aa6100ad796a1e67dca20ecf0965ea5d418)
+- Hide host in debug logs to prevent leak when posting logs in issue [`b4fb25d`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/b4fb25d3d46f538ac950c11f2c1c5e1f8f76adb3)
