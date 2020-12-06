@@ -1,7 +1,9 @@
-## 🚑 Fixs
+# New feature:
+You can now exclude folder or addons from backup ! 
+Take a look to this new settings in the backup setting menu !
 
-- Manually buid basic auth header to prevent encoding issue with password #32 [`619aa80`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/619aa8068714a92c315402a953473faf3fe6698e)
 
-## ✏ Enhancements
+## 🔨 Changes
 
-- Hide host in debug logs to prevent leak when posting logs in issue [`b4fb25d`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/b4fb25d3d46f538ac950c11f2c1c5e1f8f76adb3)
+- :hammer: Add settings for partial backup #33 [`310ecf1`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/310ecf1c17d314eff555dff010d65b9f69137b0d)
+- :hammer: Switch to partial backup #33 [`9c08147`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/9c08147b008322a5bddb50b37f3de49df886fb62)
