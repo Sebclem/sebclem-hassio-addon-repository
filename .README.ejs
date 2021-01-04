@@ -93,7 +93,7 @@ This repository doc is based on the Awesome repository [Community Hass.io Add-on
 
 MIT License
 
-Copyright (c) 2020 Sébastien Clément
+Copyright (c) 2021 Sébastien Clément
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -120,7 +120,7 @@ SOFTWARE.
 [sebclem]: https://github.com/Sebclem
 [issue]: https://github.com/Sebclem/sebclem-hassio-addon-repository/issues
 [license-shield]: https://img.shields.io/github/license/Sebclem/sebclem-hassio-addon-repository.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2020.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-experimental-orange.svg
 [reddit]: https://reddit.com/r/homeassistant
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
