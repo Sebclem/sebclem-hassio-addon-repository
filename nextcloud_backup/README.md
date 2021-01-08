@@ -13,7 +13,7 @@ Auto backup can be configure via the Home Assistant web interface.
 ### Features
 - Auto Backup : Configure this add-on to automaticaly backup your HassIO instance.
 - Auto Clean : You can specify the maximum number of local snapshots and (__ONLY__) auto backup snapshots.
-- ~~Restore backups.~~ (Coming Soon)
+- Upload backed-up snapshot to Home assistant.
 > __Info:__
 > Auto Clean is executed after every upload and every day at 00h30
 
@@ -43,6 +43,6 @@ To do this:
 [forum]: https://community.home-assistant.io/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-beta-red.svg
-[release-shield]: https://img.shields.io/badge/version-0.12.2-blue.svg
-[release]:  https://img.shields.io/badge/version-0.12.2-blue.svg
+[release-shield]: https://img.shields.io/badge/version-0.13.0-blue.svg
+[release]:  https://img.shields.io/badge/version-0.13.0-blue.svg
 [image]: https://github.com/Sebclem/hassio-nextcloud-backup/raw/master/images/screenshot.png
