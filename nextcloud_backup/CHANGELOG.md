@@ -9,6 +9,11 @@ So let me know what you think !
 If you found any issue don't hesitate to open an issue on the [project's repo](https://github.com/Sebclem/hassio-nextcloud-backup/issues).
 
 
+## 🚑 Fixs
+
+- :ambulance: Fix nextcloud modal not showing if conf is empty [`18657e3`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/18657e37ce6fb431eaa07369db8ec45cce69d33f)
+- :ambulance: Fix error 500 if config is empty [`94eb49c`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/94eb49c312b1562c95f6b2ad3b3aa572a84b0cf7)
+
 ## 🔨 Changes
 
 - :hammer: Add bootstrap files [`7bcce07`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7bcce07c5993ce372d2ac70ce876587667e1c1f7)
@@ -18,9 +23,11 @@ If you found any issue don't hesitate to open an issue on the [project's repo](h
 - :hammer: Convert backup setting modal to bootstrap  [`039d01b`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/039d01bf64c2a54d3489e8f3b5aec8c94c5719ec)
 - :hammer: Convert nextcloud setting modal to bootstrap [`7d4b796`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7d4b7969500033dfca3331779179c1610bd43045)
 - :hammer: Convert list + modal to Bootstrap [`59afab1`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/59afab11200493227e4ec0765514ceda67a6a299)
-- :hammer: Correct upload  [`2e110ae`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/2e110ae9ac5edbf0824fe6be9c532a6574f97799)
+
 
 ## ✏ Enhancements
 
-- :pencil2: JS code clean and refractor [`fce90f0`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/fce90f0b6a6003ec8c5b56eb0ff158ff21230abd) [`f7ebd6a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f7ebd6a9e00a142d6a64adc683d7a2c36aa48146)
+- :pencil2: JS code clean and refractor [`fce90f0`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/fce90f0b6a6003ec8c5b56eb0ff158ff21230abd)
+- :pencil2: Code clean [`f7ebd6a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f7ebd6a9e00a142d6a64adc683d7a2c36aa48146)
+- :pencil2: Little visual change on backup config modal [`5bcd0b4`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/5bcd0b4dde96d266d90e62feccb988eb8b53577b)
 - :pencil2: Update image and readme [`e2ac2de`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/e2ac2dee679446ba0f97077a6bbf449128a6cee6)
