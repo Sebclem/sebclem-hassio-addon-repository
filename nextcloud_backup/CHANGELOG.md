@@ -8,7 +8,12 @@ So let me know what you think !
 
 If you found any issue don't hesitate to open an issue on the [project's repo](https://github.com/Sebclem/hassio-nextcloud-backup/issues).
 
+## V0.13.1:
+## 🚑 Fixs
 
+- :ambulance: Fix modal scroll [`573ca54`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/573ca5401c259d14d3ffe2488c56d2712255a6af)
+
+## V0.13.0:
 ## 🚑 Fixs
 
 - :ambulance: Fix nextcloud modal not showing if conf is empty [`18657e3`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/18657e37ce6fb431eaa07369db8ec45cce69d33f)
@@ -31,3 +36,4 @@ If you found any issue don't hesitate to open an issue on the [project's repo](h
 - :pencil2: Code clean [`f7ebd6a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f7ebd6a9e00a142d6a64adc683d7a2c36aa48146)
 - :pencil2: Little visual change on backup config modal [`5bcd0b4`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/5bcd0b4dde96d266d90e62feccb988eb8b53577b)
 - :pencil2: Update image and readme [`e2ac2de`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/e2ac2dee679446ba0f97077a6bbf449128a6cee6)
+
