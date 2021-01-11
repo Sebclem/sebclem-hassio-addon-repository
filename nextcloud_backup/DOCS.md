@@ -1,3 +1,17 @@
+## Installation
+
+The installation of this add-on is pretty straightforward and not different in
+comparison to installing any other Hass.io add-on.
+
+1. [Add our Home Assisant add-ons repository][repository] to your HassOS instance.
+1. Install the "Nextcloud Backup" add-on.
+1. Start the "Nextcloud Backup" add-on
+1. Check the logs of the "Nextcloud Backup" add-on to see if everything went well.
+1. Open the web UI for the "Nextcloud Backup" to configure the add-on.
+
+> **NOTE**: Do not add this repository to HassOS, please use: `https://github.com/Sebclem/sebclem-hassio-addon-repository`.
+
+
 ## NextCloud config
 
 First, you need to configure all your Nextcloud information.
@@ -57,4 +71,5 @@ more severe level, e.g., `debug` also shows `info` messages. By default,
 the `log_level` is set to `info`, which is the recommended setting unless
 you are troubleshooting.
 
-[variable_doc]: https://github.com/Sebclem/hassio-nextcloud-backup/blob/master/nextcloud_backup/namin_template.md
+[variable_doc]: https://github.com/Sebclem/hassio-nextcloud-backup/blob/master/nextcloud_backup/naming_template.md
+[repository]: https://github.com/Sebclem/sebclem-hassio-addon-repository
