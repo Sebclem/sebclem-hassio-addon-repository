@@ -2,3 +2,4 @@ addons:
   nextcloud-backup:
     repository: Sebclem/hassio-nextcloud-backup
     target: nextcloud_backup
+    image: ghcr.io/sebclem/hassio-nextcloud-backup/{arch}
