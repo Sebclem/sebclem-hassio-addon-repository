@@ -1,24 +1,12 @@
-## 🔨 Changes
+## ⬆️ Dependency updates
 
-- :hammer: Fix for new version of webdav lib [`4c96f69`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/4c96f698eb5f2f77731334a95b58accadd08eefe) 
+- Update Base image [`fc65343`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/fc6534304593a02d9272d41ff8ce20a13eaba74a) 
+- Bump bootstrap [`64`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/64) `dependabot[bot]`
+- Bump webdav [`62`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/62) `dependabot[bot]`
+- Bump bootstrap [`61`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/61) `dependabot[bot]`
 
 ## ✏ Enhancements
 
-- :pencil2: Re-gen css files [`570ab51`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/570ab5183f531ff5e4f9616f8f86a7d7aab8512b) 
-- :pencil2: Update changelog 
-- :pencil2: Add dependabot config [`1245972`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/12459720c44b5e172a350de846912b2705d5a862)
-
-## ⬆️ Dependency updates
-
-- :arrow_up: Update base addon version [`946589d`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/946589d09ef18295d43bbb4720e38d1bfa915b18) 
-- :arrow_up: Bump jquery in /nextcloud_backup/rootfs/opt/nextcloud_backup [`58`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/58) `dependabot[bot]`
-- :arrow_up: Bump bootstrap [`46`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/46) `dependabot[bot]`
-- :arrow_up: Bump got in /nextcloud_backup/rootfs/opt/nextcloud_backup [`57`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/57) `dependabot[bot]`
-- :arrow_up: Bump @fortawesome/fontawesome-free [`60`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/60) `dependabot[bot]`
-- :arrow_up: Bump form-data [`54`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/54) `dependabot[bot]`
-- :arrow_up: Bump http-errors [`53`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/53) `dependabot[bot]`
-- :arrow_up: Bump debug in /nextcloud_backup/rootfs/opt/nextcloud_backup [`51`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/51) `dependabot[bot]`
-- :arrow_up: Bump morgan in /nextcloud_backup/rootfs/opt/nextcloud_backup [`47`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/47) `dependabot[bot]`
-- :arrow_up: Bump @fortawesome/fontawesome-free [`50`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/50) `dependabot[bot]`
-- :arrow_up: Bump ejs in /nextcloud_backup/rootfs/opt/nextcloud_backup [`49`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/49) `dependabot[bot]`
-- :arrow_up: Bump express in /nextcloud_backup/rootfs/opt/nextcloud_backup [`48`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/48) `dependabot[bot]`
+- Reduce donate button size [`c9e0aab`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/c9e0aab3beefd0fd9ff5c54929edbe9366e4bbab) [`8576e26`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/8576e26729a5dfaf3ac62b8cdd711e6c9b271ed3) 
+- Fix CI/CD [`65744ad`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/65744ad42c1de42698e2576e83bc0463849ab477) 
+- [CI/CD] Don't push on PR [`47b8fb6`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/47b8fb65d11be6c5d9cbf9f140f1e071c12de397) 

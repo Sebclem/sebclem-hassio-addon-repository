@@ -3,7 +3,7 @@
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
-[![Buy me a coffee][buymeacoffee-shield]][buymeacoffee]
+<a href="https://www.buymeacoffee.com/seb6596"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=seb6596&button_colour=FFDD00&font_colour=000000&font_family=Lato&outline_colour=000000&coffee_colour=ffffff" width='20%'></a>
 
 ## About
 
@@ -23,14 +23,12 @@ Easily backup your Home Assistant snapshots to Nextcloud.
 
 ![Nextcloud Backup Screenshot][image]
 
-[buymeacoffee-shield]: https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-2.svg
-[buymeacoffee]: https://www.buymeacoffee.com/seb6596
 [docs]: https://github.com/Sebclem/hassio-nextcloud-backup/blob/master/README.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-beta-red.svg
-[release-shield]: https://img.shields.io/badge/version-0.16.0-blue.svg
-[release]:  https://img.shields.io/badge/version-0.16.0-blue.svg
+[release-shield]: https://img.shields.io/badge/version-0.16.1-blue.svg
+[release]:  https://img.shields.io/badge/version-0.16.1-blue.svg
 [image]: https://github.com/Sebclem/hassio-nextcloud-backup/raw/master/images/screenshot.png
 [logo]: https://github.com/Sebclem/hassio-nextcloud-backup/raw/master/nextcloud_backup/logo.png
