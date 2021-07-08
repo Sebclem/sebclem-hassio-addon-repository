@@ -5,5 +5,5 @@
 
 ## ✏ Enhancements
 
-- :pencil2: Clean release-it config file [`204d080`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/204d0807d9346a20423982d02eb4e68b67a92a6a) 
-
+- Clean release-it config file [`204d080`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/204d0807d9346a20423982d02eb4e68b67a92a6a) 
+- Minor Gramatical Fixes [`0fb4615`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/1a61f9e2d0be238f831bf4f511e8b53d3d4c8696) @meichthys
