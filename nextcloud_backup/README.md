@@ -17,6 +17,7 @@ Easily backup your Home Assistant snapshots to Nextcloud.
 - __Auto Stop__ : This addon can stop addons before backup and restart them after backup
 - __Restore__ : Upload backed-up snapshot to Home assistant.
 - __Web UI__ : All the configuration is based on an easy-to-use web interface, no yaml needed.
+- __Home Assistant State Entities__ : This addon create 2 entite in HA : `binary_sensor.nextcloud_backup_error` and `sensor.nextcloud_backup_status`
 
 
 [Click here for the full documentation][docs]
@@ -28,7 +29,7 @@ Easily backup your Home Assistant snapshots to Nextcloud.
 [forum]: https://community.home-assistant.io/
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2021.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-beta-red.svg
-[release-shield]: https://img.shields.io/badge/version-0.16.2-blue.svg
-[release]:  https://img.shields.io/badge/version-0.16.2-blue.svg
+[release-shield]: https://img.shields.io/badge/version-0.16.3-blue.svg
+[release]:  https://img.shields.io/badge/version-0.16.3-blue.svg
 [image]: https://github.com/Sebclem/hassio-nextcloud-backup/raw/master/images/screenshot.png
 [logo]: https://github.com/Sebclem/hassio-nextcloud-backup/raw/master/nextcloud_backup/logo.png

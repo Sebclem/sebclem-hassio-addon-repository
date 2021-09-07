@@ -1,9 +1,14 @@
-## ⬆️ Dependencies updates
+## 🔨 Changes
 
-- Upgrade base image [`0fb4615`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/0fb46156b83c2b916dc7d08f5e0e3d6da13eeb60) 
-- Update dependencies [`8b0922a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/8b0922a4155954e8d7fd5605c1c5cdcf0a97c03f)  [`67`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/67) `dependabot[bot]` [`68`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/68) `dependabot[bot]`
+- Add status entities to home assistant #1 [`efcdcd6`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/efcdcd65b1385ce43f38973725a290f09be50866)
+- Add custom cron setting #78 [`f2c9561`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f2c9561d9b5c5a016f206055286be42e417b7a52) 
 
 ## ✏ Enhancements
 
-- Clean release-it config file [`204d080`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/204d0807d9346a20423982d02eb4e68b67a92a6a) 
-- Minor Gramatical Fixes [`0fb4615`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/1a61f9e2d0be238f831bf4f511e8b53d3d4c8696) @meichthys
+- Add error detail on config save [`c9b4b71`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/c9b4b71e8565e5a9089a5694ba10e49d1d72d19b) 
+- Replace deprecated Jquery methods [`c419ab2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/c419ab24ea52b6d35c0c9dc3baa8f2b6c4c850a7) 
+
+## ⬆️ Dependency updates
+
+- Update dependencies [`dd266cb`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/dd266cbc1c14eb0590f2614fccd531858d376d03) 
+- Update base image to 10.0.2 [`cf98379`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/cf98379de9eed9fd4b4199b9434225925c800798)
