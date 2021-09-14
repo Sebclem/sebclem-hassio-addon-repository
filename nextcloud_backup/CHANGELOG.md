@@ -1,3 +1,11 @@
+# V0.16.4
+
+## 🚑 Fixs
+
+- Fix crash if next_backup is empty (if auto backup not configured) #84 [`7b7d5a2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7b7d5a2b0e86887b8836cc18976c4d90331239a3)
+
+# V0.16.3
+
 ## 🔨 Changes
 
 - Add status entities to home assistant #1 [`efcdcd6`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/efcdcd65b1385ce43f38973725a290f09be50866)
