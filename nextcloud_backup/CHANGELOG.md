@@ -1,22 +1,15 @@
-# V0.16.4
+# ⚠️ BREAKING CHANGE / REGRESSION ⚠️ 
+I have temporary disabled the home assistant sensors.
+I suspect my implementation to cause home assistant api flooding. 
+
+I also need feedback to try to fix an issue that some user experiment, if you have any error like `HTTPError: Response code 400 (Bad Request)`, please add your feedback / logs to this issue: [#102](https://github.com/Sebclem/hassio-nextcloud-backup/issues/102). 
+At this time, I'm not able to reproduce this error on my setup, so any additional information is welcome.
+
 
 ## 🚑 Fixs
 
-- Fix crash if next_backup is empty (if auto backup not configured) #84 [`7b7d5a2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7b7d5a2b0e86887b8836cc18976c4d90331239a3)
-
-# V0.16.3
+- :ambulance: Use new supervisor URL + new auth method #102 [`15ed577`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/15ed57768249b9ea4b270dc5e10f013d9f7fd576) 
 
 ## 🔨 Changes
 
-- Add status entities to home assistant #1 [`efcdcd6`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/efcdcd65b1385ce43f38973725a290f09be50866)
-- Add custom cron setting #78 [`f2c9561`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f2c9561d9b5c5a016f206055286be42e417b7a52) 
-
-## ✏ Enhancements
-
-- Add error detail on config save [`c9b4b71`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/c9b4b71e8565e5a9089a5694ba10e49d1d72d19b) 
-- Replace deprecated Jquery methods [`c419ab2`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/c419ab24ea52b6d35c0c9dc3baa8f2b6c4c850a7) 
-
-## ⬆️ Dependency updates
-
-- Update dependencies [`dd266cb`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/dd266cbc1c14eb0590f2614fccd531858d376d03) 
-- Update base image to 10.0.2 [`cf98379`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/cf98379de9eed9fd4b4199b9434225925c800798)
+- :hammer: Temporary disable home assistant sensor (suspected to create crash) #102 [`aa99b36`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/aa99b360d35876f6650c2991f878313649bae800)
