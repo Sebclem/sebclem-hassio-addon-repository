@@ -1,3 +1,21 @@
+# V0.16.6
+
+## 🚑 Fixs
+
+- :ambulance: Fix clean using wrong http method + url (#110) [`73165cd`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/73165cd764a0ae71aef46def046d3ce66edb4618) 
+
+## ⬆️ Dependency updates
+
+- :arrow_up: Bump winston in /nextcloud_backup/rootfs/opt/nextcloud_backup [`105`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/105) `dependabot[bot]`
+- :arrow_up: Bump http-errors [`98`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/98) `dependabot[bot]`
+- :arrow_up: Bump webdav in /nextcloud_backup/rootfs/opt/nextcloud_backup [`104`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/104) `dependabot[bot]`
+- :arrow_up: Bump express in /nextcloud_backup/rootfs/opt/nextcloud_backup [`97`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/97) `dependabot[bot]`
+- :arrow_up: Bump debug in /nextcloud_backup/rootfs/opt/nextcloud_backup [`95`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/95) `dependabot[bot]`
+- :arrow_up: Bump cookie-parser [`93`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/93) `dependabot[bot]`
+
+
+# V0.16.5
+
 # ⚠️ BREAKING CHANGE / REGRESSION ⚠️ 
 I have temporary disabled the home assistant sensors.
 I suspect my implementation to cause home assistant api flooding. 
