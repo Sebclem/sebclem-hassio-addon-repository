@@ -38,7 +38,7 @@ https://github.com/Sebclem/sebclem-hassio-addon-repository
 ![Supports i386 Architecture][nextcloud_backup-i386-shield]
 ![Docker Pulls][nextcloud_backup-pulls-shield]
 
-Easily backup your Home Assistant snapshots to Nextcloud 
+Easily upload your Home Assistant backups to Nextcloud 
  
 
 
@@ -131,7 +131,7 @@ SOFTWARE.
 
 
 [addon-nextcloud_backup]: https://github.com/Sebclem/hassio-nextcloud-backup
-[nextcloud_backup-version-shield]: https://img.shields.io/badge/version-0.16.7-blue.svg
+[nextcloud_backup-version-shield]: https://img.shields.io/badge/version-0.16.8-blue.svg
 [nextcloud_backup-armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [nextcloud_backup-armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [nextcloud_backup-aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
