@@ -1,3 +1,16 @@
+# V0.16.7
+
+## 🔨 Changes
+
+- :hammer: Add "Create Backup Timeout" in addon settings #111 [`f7177db`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f7177dbd70d057b51fdcf14d399e462e09878806) 
+
+## ⬆️ Dependency updates
+
+- :arrow_up: Bump @fortawesome/fontawesome-free [`109`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/109) `dependabot[bot]`
+- :arrow_up: Bump follow-redirects [`112`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/112) `dependabot[bot]`
+- :arrow_up: Bump winston in /nextcloud_backup/rootfs/opt/nextcloud_backup [`113`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/113) `dependabot[bot]`
+
+
 # V0.16.6
 
 ## 🚑 Fixs
