@@ -36,3 +36,9 @@ If you find any bug, feel free to [open an issue on Github](https://github.com/S
 ## 🚑 Fixs
 
 - :ambulance: Fix yarn lock file [`1dcc521`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/1dcc52144a485d41471e42e0afabbaa5b5592c20)
+
+# V0.17.2
+
+## 🔨 Changes
+
+- :hammer: Remove moment [`065bfae`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/065bfae22320ec5a0812d0abfa33070f50798d16)
