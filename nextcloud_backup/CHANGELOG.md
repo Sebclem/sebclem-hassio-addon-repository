@@ -30,3 +30,9 @@ If you find any bug, feel free to [open an issue on Github](https://github.com/S
 - ⬆️ Bump moment from 2.29.1 to 2.29.3 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`126`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/126) `dependabot[bot]`
 - ⬆️ Bump got from 11.8.2 to 12.0.4 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`129`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/129) `dependabot[bot]`
 - ⬆️ Bump express from 4.17.2 to 4.18.1 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`132`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/132) `dependabot[bot]`
+
+# V0.17.1
+
+## 🚑 Fixs
+
+- :ambulance: Fix yarn lock file [`1dcc521`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/1dcc52144a485d41471e42e0afabbaa5b5592c20)
