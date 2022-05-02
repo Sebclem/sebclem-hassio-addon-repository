@@ -1,46 +1,32 @@
-# V0.16.7 & V0.16.8
+# V0.17.0
+
+This release introduce a big migration to ESM node-js module.
+All have tested everything on test instance but some bug can still be present.
+
+This migration will normally fix #100  and #128 has i have change how the "state" of the app is stored.
+
+
+### ⚠️ Please check your backup
+This app is still in beta state, so please check that your backup hare correctly generated/uploaded. Some people has reported that their backup are listed as "password protected" despite this setting being disabled in the addon config. So please check that your backup are not password protected if not desired (This bug seam to append only at the first startup of the addon, and never append again).
+
+If you find any bug, feel free to [open an issue on Github](https://github.com/Sebclem/hassio-nextcloud-backup/issues)
+
 
 ## 🔨 Changes
+- 🔨 Migrate all code to ESM [`124`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/124) `Sébastien Clément`
+- 🔨 Migrate to yarn [`8809965`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/88099659335ca65797e6b29a301509aaea32f109) 
+- 🔨 Fix CI/CD [`dee239c`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/dee239c0aa26cb3206bf4e7eaabff64ba5bbc54d) [`0d2698b`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/0d2698bcc6818099824dc73bf767a704481aa5c2) 
 
-- :hammer: Add "Create Backup Timeout" in addon settings #111 [`f7177db`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/f7177dbd70d057b51fdcf14d399e462e09878806) 
+## ✏ Enhancements
+
+- ✏ Add yarn script for release [`e368873`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/e368873df937be089db7de54e097a111fbf4a34f) 
 
 ## ⬆️ Dependency updates
 
-- :arrow_up: Bump @fortawesome/fontawesome-free [`109`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/109) `dependabot[bot]`
-- :arrow_up: Bump follow-redirects [`112`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/112) `dependabot[bot]`
-- :arrow_up: Bump winston in /nextcloud_backup/rootfs/opt/nextcloud_backup [`113`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/113) `dependabot[bot]`
-
-
-# V0.16.6
-
-## 🚑 Fixs
-
-- :ambulance: Fix clean using wrong http method + url (#110) [`73165cd`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/73165cd764a0ae71aef46def046d3ce66edb4618) 
-
-## ⬆️ Dependency updates
-
-- :arrow_up: Bump winston in /nextcloud_backup/rootfs/opt/nextcloud_backup [`105`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/105) `dependabot[bot]`
-- :arrow_up: Bump http-errors [`98`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/98) `dependabot[bot]`
-- :arrow_up: Bump webdav in /nextcloud_backup/rootfs/opt/nextcloud_backup [`104`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/104) `dependabot[bot]`
-- :arrow_up: Bump express in /nextcloud_backup/rootfs/opt/nextcloud_backup [`97`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/97) `dependabot[bot]`
-- :arrow_up: Bump debug in /nextcloud_backup/rootfs/opt/nextcloud_backup [`95`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/95) `dependabot[bot]`
-- :arrow_up: Bump cookie-parser [`93`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/93) `dependabot[bot]`
-
-
-# V0.16.5
-
-# ⚠️ BREAKING CHANGE / REGRESSION ⚠️ 
-I have temporary disabled the home assistant sensors.
-I suspect my implementation to cause home assistant api flooding. 
-
-I also need feedback to try to fix an issue that some user experiment, if you have any error like `HTTPError: Response code 400 (Bad Request)`, please add your feedback / logs to this issue: [#102](https://github.com/Sebclem/hassio-nextcloud-backup/issues/102). 
-At this time, I'm not able to reproduce this error on my setup, so any additional information is welcome.
-
-
-## 🚑 Fixs
-
-- :ambulance: Use new supervisor URL + new auth method #102 [`15ed577`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/15ed57768249b9ea4b270dc5e10f013d9f7fd576) 
-
-## 🔨 Changes
-
-- :hammer: Temporary disable home assistant sensor (suspected to create crash) #102 [`aa99b36`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/aa99b360d35876f6650c2991f878313649bae800)
+- ⬆️Bump url-parse [`116`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/116) `dependabot[bot]`
+- ⬆️ Bump ejs in /nextcloud_backup/rootfs/opt/nextcloud_backup [`131`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/131) `dependabot[bot]`
+- ⬆️ Bump debug in /nextcloud_backup/rootfs/opt/nextcloud_backup [`119`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/119) `dependabot[bot]`
+- ⬆️ Bump @fortawesome/fontawesome-free [`120`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/120) `dependabot[bot]`
+- ⬆️ Bump moment from 2.29.1 to 2.29.3 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`126`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/126) `dependabot[bot]`
+- ⬆️ Bump got from 11.8.2 to 12.0.4 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`129`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/129) `dependabot[bot]`
+- ⬆️ Bump express from 4.17.2 to 4.18.1 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`132`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/132) `dependabot[bot]`
