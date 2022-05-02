@@ -1,7 +1,7 @@
 # V0.17.0
 
 This release introduce a big migration to ESM node-js module.
-All have tested everything on test instance but somme bug can still be present.
+All have tested everything on test instance but some bug can still be present.
 
 This migration will normally fix #100  and #128 has i have change how the "state" of the app is stored.
 
@@ -15,6 +15,7 @@ If you find any bug, feel free to [open an issue on Github](https://github.com/S
 ## 🔨 Changes
 - 🔨 Migrate all code to ESM [`124`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/124) `Sébastien Clément`
 - 🔨 Migrate to yarn [`8809965`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/88099659335ca65797e6b29a301509aaea32f109) 
+- 🔨 Fix CI/CD [`dee239c`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/dee239c0aa26cb3206bf4e7eaabff64ba5bbc54d) [`0d2698b`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/0d2698bcc6818099824dc73bf767a704481aa5c2) 
 
 ## ✏ Enhancements
 
