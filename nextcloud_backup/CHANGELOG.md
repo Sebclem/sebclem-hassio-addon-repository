@@ -41,4 +41,10 @@ If you find any bug, feel free to [open an issue on Github](https://github.com/S
 
 ## 🔨 Changes
 
-- :hammer: Remove moment [`065bfae`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/065bfae22320ec5a0812d0abfa33070f50798d16)
+- 🔨  Remove moment [`065bfae`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/065bfae22320ec5a0812d0abfa33070f50798d16)
+
+# V0.17.3
+
+## 🚑 Fixs
+
+- 🚑  Add missing 'content-length' header (possible fix for #135) [`4622a36`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/4622a36f1bb152d2d94f8bbdfe6f605722f0c272)
