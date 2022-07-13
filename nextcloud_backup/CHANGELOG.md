@@ -1,50 +1,37 @@
-# V0.17.0
+## 🚑 Fixs
 
-This release introduce a big migration to ESM node-js module.
-All have tested everything on test instance but some bug can still be present.
-
-This migration will normally fix #100  and #128 has i have change how the "state" of the app is stored.
-
-
-### ⚠️ Please check your backup
-This app is still in beta state, so please check that your backup hare correctly generated/uploaded. Some people has reported that their backup are listed as "password protected" despite this setting being disabled in the addon config. So please check that your backup are not password protected if not desired (This bug seam to append only at the first startup of the addon, and never append again).
-
-If you find any bug, feel free to [open an issue on Github](https://github.com/Sebclem/hassio-nextcloud-backup/issues)
-
+- :ambulance: Fix issue with new api addon shema [`2ae60ea`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/2ae60ea74470d1c975db5d6e54fa75a45dd070b6) 
 
 ## 🔨 Changes
-- 🔨 Migrate all code to ESM [`124`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/124) `Sébastien Clément`
-- 🔨 Migrate to yarn [`8809965`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/88099659335ca65797e6b29a301509aaea32f109) 
-- 🔨 Fix CI/CD [`dee239c`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/dee239c0aa26cb3206bf4e7eaabff64ba5bbc54d) [`0d2698b`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/0d2698bcc6818099824dc73bf767a704481aa5c2) 
+
+- :hammer: add yarn set version [`7d14299`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7d142999d73beb007e4f3b09782872b1f8089814) 
+- :hammer: Add yarn bin to docker [`7fc7849`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7fc7849d969cc9d3a5053f8d62695cdbc1aba654) 
 
 ## ✏ Enhancements
 
-- ✏ Add yarn script for release [`e368873`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/e368873df937be089db7de54e097a111fbf4a34f) 
+- :pencil2: Remove licence from readme [`7f9c8ee`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/7f9c8eea599ad93772944b7d852e798855821ec5) 
+- :pencil2: Disable dependabot [`918fb80`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/918fb8079b7c7942a7bd0fdbb738059653c341fc) 
+- :pencil2: renovate tweak [`05e861a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/05e861a371a2be781d332ef5c898fcbd186df85f) 
+- :pencil2: Configure Renovate [`138`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/138) `renovate[bot]`
 
 ## ⬆️ Dependency updates
 
-- ⬆️Bump url-parse [`116`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/116) `dependabot[bot]`
-- ⬆️ Bump ejs in /nextcloud_backup/rootfs/opt/nextcloud_backup [`131`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/131) `dependabot[bot]`
-- ⬆️ Bump debug in /nextcloud_backup/rootfs/opt/nextcloud_backup [`119`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/119) `dependabot[bot]`
-- ⬆️ Bump @fortawesome/fontawesome-free [`120`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/120) `dependabot[bot]`
-- ⬆️ Bump moment from 2.29.1 to 2.29.3 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`126`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/126) `dependabot[bot]`
-- ⬆️ Bump got from 11.8.2 to 12.0.4 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`129`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/129) `dependabot[bot]`
-- ⬆️ Bump express from 4.17.2 to 4.18.1 in /nextcloud_backup/rootfs/opt/nextcloud_backup [`132`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/132) `dependabot[bot]`
-
-# V0.17.1
-
-## 🚑 Fixs
-
-- :ambulance: Fix yarn lock file [`1dcc521`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/1dcc52144a485d41471e42e0afabbaa5b5592c20)
-
-# V0.17.2
-
-## 🔨 Changes
-
-- 🔨  Remove moment [`065bfae`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/065bfae22320ec5a0812d0abfa33070f50798d16)
-
-# V0.17.3
-
-## 🚑 Fixs
-
-- 🚑  Add missing 'content-length' header (possible fix for #135) [`4622a36`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/4622a36f1bb152d2d94f8bbdfe6f605722f0c272)
+- :arrow_up: Update dependency release-it to v15.1.1 [`158`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/158) `renovate[bot]`
+- :arrow_up: Update dependency winston to v3.8.1 [`159`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/159) `renovate[bot]`
+- :arrow_up: Update dependency luxon to v3 [`162`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/162) `renovate[bot]`
+- :arrow_up: Update dependency ghcr.io/hassio-addons/base/amd64 to v12 [`153`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/153) `renovate[bot]`
+- :arrow_up: Update Yarn to v3.2.1 [`150`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/150) `renovate[bot]`
+- :arrow_up: Update dependency luxon to v2.4.0 [`148`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/148) `renovate[bot]`
+- :arrow_up: Update dependency ejs to v3.1.8 [`149`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/149) `renovate[bot]`
+- :arrow_up: :arrow_up: Update dependency webdav to v4.10.0 [`151`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/151) `renovate[bot]`
+- :arrow_up: Update dependency release-it to v15.1.0 [`156`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/156) `renovate[bot]`
+- :arrow_up: Update dependency winston to v3.8.0 [`157`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/157) `renovate[bot]`
+- :arrow_up: Update dependency got to v12.1.0 [SECURITY] [`154`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/154) `renovate[bot]`
+- :arrow_up: Update docker/build-push-action action to v3 [`146`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/146) `renovate[bot]`
+- :arrow_up: Update docker/setup-qemu-action action to v2 [`145`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/145) `renovate[bot]`
+- :arrow_up: Update docker/setup-buildx-action action to v2 [`144`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/144) `renovate[bot]`
+- :arrow_up: Update docker/login-action action to v2 [`147`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/147) `renovate[bot]`
+- :arrow_up: Update dependency cron to v2 [`143`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/143) `renovate[bot]`
+- :arrow_up: Update actions/checkout action to v3 [`142`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/142) `renovate[bot]`
+- :arrow_up: Pin dependency @fortawesome/fontawesome-free to 6.1.1 [`140`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/140) `renovate[bot]`
+- :arrow_up: Pin dependencies [`139`](https://github.com/Sebclem/hassio-nextcloud-backup/pull/139) `renovate[bot]`
