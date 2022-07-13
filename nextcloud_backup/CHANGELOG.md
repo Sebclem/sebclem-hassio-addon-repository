@@ -1,3 +1,11 @@
+# V0.75.5
+
+## 🚑 Fixs
+
+- :ambulance: Disable init to prenvent issue with S6-Overlay 3.x [`044957b`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/044957b316acc40d3159b77a44df24cb4c26bd17)
+
+# V0.75.4
+
 ## 🚑 Fixs
 
 - :ambulance: Fix issue with new api addon shema [`2ae60ea`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/2ae60ea74470d1c975db5d6e54fa75a45dd070b6) 
