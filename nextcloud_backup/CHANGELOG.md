@@ -1,3 +1,9 @@
+# V0.75.6
+
+## 🚑 Fixs
+
+- :ambulance: Fix script permissions [`5e01d6a`](https://github.com/Sebclem/hassio-nextcloud-backup/commit/5e01d6a64cbd765c4c2e33730e4bd73b081a167f)
+
 # V0.75.5
 
 ## 🚑 Fixs
