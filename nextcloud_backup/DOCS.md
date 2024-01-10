@@ -19,7 +19,7 @@ First, you need to configure all your Nextcloud information.
 1. Open the add-on Web UI
 1. Open NextCloud config menu (Top right gear, and Nextcloud)
 1. If your NextCloud instance uses `HTTPS`, enable the `SSL` lever
-1. Enter the `hostname` of the NextCloud instance. You can specify a custom port by adding `:[port]` at the end of the hostname (`exemple.com:8080`)
+1. Enter the `hostname` of the NextCloud instance. You can specify a custom port by adding `:[port]` at the end of the hostname (`example.com:8080`). Please do not add the Potokoll ("http://" or "https://").
 1. Now enter the Nextcloud username that you would like this add-on to use.
 1. For the password, we highly recommend using an `App Password`.
 
