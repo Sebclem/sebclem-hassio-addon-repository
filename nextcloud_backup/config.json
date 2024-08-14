@@ -1,6 +1,6 @@
 {
     "name": "Nextcloud Backup",
-    "version": "dev",
+    "version": "main",
     "slug": "nextcloud_backup",
     "description": "Easily upload your Home Assistant backups to Nextcloud",
     "url": "https://github.com/Sebclem/hassio-nextcloud-backup",
