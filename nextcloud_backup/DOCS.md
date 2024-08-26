@@ -34,13 +34,16 @@ You can now configure the automatic backup.
 1. Specify the backup naming template, this will define how your backup will be named. 
    On this field, you can use some variables that are documented [here][variable_doc].
    The default value is `{type}-{ha_version}-{date}_{hour}`.
-1. If you want to protect your backup with a password, enable `Password Protected` and specify the password.
 1. You can now choose witch folder and add-on you want to include in your backup.
-1. Now select the backup frequency. 
+1. If you want to protect your backup with a password, enable `Password Protected` and specify the password.
+1. Now select the backup frequency.
+1. If you want to auto stop addons before backup, select then in `Auto Stop Addons` (*Note: These addons will be re-started after backup*)
 1. You can finally enable Auto clean for Local Snapshot (Snapshot in Home Assistant) and Nextcloud Backups.
    If enabled, you can specify how much Local Snapshot and Nextcloud Backup you want to keep before deleting the older one.
 > __Info:__
 > Auto Clean is executed after every upload and every day at 00h30
+
+
 ## Home Assitant Os Configuration
 
 **Note**: _Remember to restart the add-on when the configuration is changed._
