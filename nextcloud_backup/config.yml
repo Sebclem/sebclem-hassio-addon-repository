@@ -1,5 +1,5 @@
 name: Nextcloud Backup
-version: main.912
+version: main.913
 slug: nextcloud_backup
 description: Easily upload your Home Assistant backups to Nextcloud
 url: https://github.com/Sebclem/hassio-nextcloud-backup
@@ -30,3 +30,4 @@ ports:
   3000/tcp: null
 ports_description:
   3000/tcp: Web interface (Not required for Home Assistant Ingress)
+image: ghcr.io/sebclem/hassio-nextcloud-backup/{arch}
