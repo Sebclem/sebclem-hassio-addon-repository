@@ -1,5 +1,5 @@
 name: Nextcloud Backup
-version: main.942
+version: main.945
 slug: nextcloud_backup
 description: Easily upload your Home Assistant backups to Nextcloud
 url: https://github.com/Sebclem/hassio-nextcloud-backup
